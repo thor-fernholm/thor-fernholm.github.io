@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand plain">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span data-site-name>Portfolio</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html#top">Home</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#about">About</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#" class="btn btn-primary btn-small" data-resume-btn>Resume</a>
+        <button class="menu-toggle" aria-label="Toggle menu"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="project-hero">
+      <div class="container" data-project-root>
+        <p>Loading project…</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span data-year></span> <span data-site-name>Portfolio</span>. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#" data-site-github target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#" data-site-linkedin target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#" data-site-email>Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="shared.js"></script>
+  <script src="project.js"></script>
+</body>
+</html>

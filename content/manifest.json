@@ -1,0 +1,45 @@
+[
+  {
+    "name": "site",
+    "label": "Site",
+    "type": "singleton",
+    "fields": [
+      { "key": "name", "label": "Name", "type": "text" },
+      { "key": "role", "label": "Role / Title", "type": "text" },
+      { "key": "heroHeadline", "label": "Hero Headline", "type": "text" },
+      { "key": "heroSubtitle", "label": "Hero Subtitle", "type": "textarea" },
+      { "key": "profileImage", "label": "Profile Image", "type": "image" },
+      { "key": "aboutText", "label": "About Text", "type": "textarea" },
+      { "key": "resumeUrl", "label": "Resume PDF", "type": "link" },
+      { "key": "email", "label": "Email", "type": "text" },
+      { "key": "linkedin", "label": "LinkedIn URL", "type": "link" },
+      { "key": "github", "label": "GitHub URL", "type": "link" }
+    ]
+  },
+  {
+    "name": "projects",
+    "label": "Projects",
+    "type": "list",
+    "fields": [
+      { "key": "title", "label": "Title", "type": "text" },
+      { "key": "slug", "label": "Slug", "type": "text" },
+      { "key": "summary", "label": "Short Summary", "type": "textarea" },
+      { "key": "description", "label": "Full Description", "type": "textarea" },
+      { "key": "image", "label": "Cover Image", "type": "image" },
+      { "key": "video", "label": "Demo Video", "type": "video" },
+      { "key": "tags", "label": "Tags (comma separated)", "type": "text" },
+      { "key": "link", "label": "Project Link", "type": "link" }
+    ]
+  },
+  {
+    "name": "education",
+    "label": "Education",
+    "type": "list",
+    "fields": [
+      { "key": "degree", "label": "Degree", "type": "text" },
+      { "key": "institution", "label": "Institution", "type": "text" },
+      { "key": "year", "label": "Year", "type": "text" },
+      { "key": "description", "label": "Description", "type": "textarea" }
+    ]
+  }
+]
