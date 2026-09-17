@@ -35,7 +35,7 @@ function renderOpenlove(site) {
   const heading = document.querySelector("[data-openlove-heading]");
   const text = document.querySelector("[data-openlove-text]");
   if (heading && site.openloveHeading) heading.textContent = site.openloveHeading;
-  if (text && site.openloveText) text.textContent = site.openloveText;
+  if (text && site.openloveText) text.innerHTML = marked.parse(site.openloveText);
 }
 
 function renderCta(site) {

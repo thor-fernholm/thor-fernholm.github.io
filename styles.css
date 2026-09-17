@@ -532,6 +532,13 @@ section + section {
    Open-Love banner
    ========================================================================== */
 
+#openlove {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.16), transparent 45%),
+    radial-gradient(circle at 80% 15%, rgba(255, 189, 143, 0.16), transparent 45%),
+    radial-gradient(circle at 60% 80%, rgba(236, 72, 153, 0.08), transparent 45%);
+}
+
 .openlove-banner {
   background: var(--color-surface);
   border: 1px solid rgba(28, 28, 28, 0.15);

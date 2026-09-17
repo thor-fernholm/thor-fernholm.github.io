@@ -16,7 +16,7 @@
       { "key": "projectsHeading", "label": "Projects Section Heading", "type": "text" },
       { "key": "projectsIntro", "label": "Projects Section Intro", "type": "textarea" },
       { "key": "openloveHeading", "label": "Open-Love Section Heading", "type": "text" },
-      { "key": "openloveText", "label": "Open-Love Section Text", "type": "textarea" },
+      { "key": "openloveText", "label": "Open-Love Section Text", "type": "markdown" },
       { "key": "ctaHeading", "label": "Closing Section Heading", "type": "text" },
       { "key": "ctaButtonLabel", "label": "Closing Section Button Label", "type": "text" },
       { "key": "resumeButtonLabel", "label": "Resume Button Label", "type": "text" },
