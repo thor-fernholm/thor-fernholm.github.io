@@ -22,11 +22,11 @@
   {
     "title": "Open-Love",
     "slug": "open-love",
-    "summary": "A web app that turns a plain-language prompt into a fully generated, ready-to-run project.",
-    "description": "Open-Love is a web app that takes a user prompt and generates local projects from scratch — from static sites to full React/NestJS applications. It drives an AI agent that scaffolds each project guided by a configurable design system, and it supports an optional content-editing convention so generated sites stay editable after the fact, without needing to regenerate them. Built with a NestJS backend and a React/TypeScript frontend.",
+    "summary": "Basically Lovable, but open-source and self-hosted — describe a project and watch it get built iteratively.",
+    "description": "Open-Love is an AI-powered site builder: basically Lovable, but open-source and self-hosted. Users describe what they want through a chat interface and watch the project get built turn by turn, with full project history and a live preview kept up to date throughout. It generates everything from plain static sites to full React/NestJS applications, guided by customizable design references, and ships a built-in content manager so editable sections — products, posts, testimonials, and the like — can be updated afterward without regenerating the project. It also supports reference materials like images, PDFs, and text files to steer generation, and offers two builder backends: Claude Code by default, and a fully local, free Ollama option. Built with a NestJS backend and a React/TypeScript frontend, released under the MIT license.",
     "image": "content/uploads/d3f08bc4-836e-4b0b-bc15-0f9535361166.webp",
     "video": "",
-    "tags": "TypeScript, React, NestJS, AI Agents",
+    "tags": "TypeScript, React, NestJS, Open-Source",
     "link": "https://github.com/thor-fernholm/open-love"
   }
 ]

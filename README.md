@@ -1,1 +1,0 @@
-# thor-fernholm.github.io
