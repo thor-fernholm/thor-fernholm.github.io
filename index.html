@@ -26,7 +26,7 @@
       </nav>
 
       <div class="header-actions">
-        <a href="#" class="btn btn-primary btn-small" data-resume-btn>Resume</a>
+        <a href="#" class="btn btn-primary btn-small" data-resume-btn data-resume-label>Resume</a>
         <button class="menu-toggle" aria-label="Toggle menu"><span></span></button>
       </div>
     </div>
@@ -36,12 +36,11 @@
     <section class="hero" id="top">
       <div class="hero-wash" aria-hidden="true"></div>
       <div class="container">
-        <span class="eyebrow" data-site-name>Portfolio</span>
         <h1 data-hero-headline>Building intelligent systems that learn, adapt, and scale.</h1>
         <p data-hero-subtitle>Loading…</p>
         <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">View Projects</a>
-          <a href="#about" class="btn btn-ghost">About Me</a>
+          <a href="#projects" class="btn btn-primary" data-hero-primary-label>View Projects</a>
+          <a href="#about" class="btn btn-ghost" data-hero-secondary-label>About Me</a>
         </div>
       </div>
     </section>
@@ -49,9 +48,8 @@
     <section id="projects">
       <div class="container">
         <div class="section-head">
-          <span class="eyebrow">Selected Work</span>
-          <h2>Projects</h2>
-          <p>A mix of production systems and research — computer vision, language models, and everything in between. Click any project for details.</p>
+          <h2 data-projects-heading>Projects</h2>
+          <p data-projects-intro>A mix of production systems and research — computer vision, language models, and everything in between. Click any project for details.</p>
         </div>
         <div class="projects-grid" data-projects-grid>
           <!-- Project cards injected by script.js -->
@@ -62,8 +60,7 @@
     <section id="about">
       <div class="container">
         <div class="section-head">
-          <span class="eyebrow">About</span>
-          <h2>Background</h2>
+          <h2 data-about-heading>Background</h2>
         </div>
         <div class="about-grid">
           <div class="about-image">
@@ -81,13 +78,23 @@
       </div>
     </section>
 
+    <section id="openlove">
+      <div class="container">
+        <div class="openlove-banner">
+          <span class="openlove-badge" aria-hidden="true">✦</span>
+          <h2 data-openlove-heading>Built with Open-Love</h2>
+          <p data-openlove-text>This entire site — layout, copy, and code — was generated end-to-end by Open-Love, the AI-powered site generator I designed and built myself. No template, no hand-written HTML — just a prompt.</p>
+        </div>
+      </div>
+    </section>
+
     <section>
       <div class="container">
         <div class="footer-cta">
-          <h2>Let's build something intelligent together.</h2>
+          <h2 data-cta-heading>Let's build something intelligent together.</h2>
           <div class="hero-actions">
-            <a href="#" class="btn btn-primary" data-site-email-link>Get in touch</a>
-            <a href="#" class="btn btn-ghost" data-resume-btn>Resume</a>
+            <a href="#" class="btn btn-primary" data-site-email-link data-cta-button-label>Get in touch</a>
+            <a href="#" class="btn btn-ghost" data-resume-btn data-resume-label>Resume</a>
           </div>
         </div>
       </div>

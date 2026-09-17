@@ -35,6 +35,9 @@ function applySiteChrome(site) {
       el.title = "Resume coming soon";
     }
   });
+  document.querySelectorAll("[data-resume-label]").forEach((el) => {
+    if (site.resumeButtonLabel) el.textContent = site.resumeButtonLabel;
+  });
 
   // Footer contact links — text is replaced with the address itself
   document.querySelectorAll("[data-site-email]").forEach((el) => {
